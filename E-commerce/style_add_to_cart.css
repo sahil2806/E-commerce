@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* ... previous styles ... */
+
+.payment {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.payment h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payment label {
+    font-size: 16px;
+}
+
+.payment input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

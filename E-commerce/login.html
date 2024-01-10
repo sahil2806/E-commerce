@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Login</title>
+    <link rel="stylesheet" href="style_login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <h2>Login</h2>
+
+            <form action="login.php" method="POST">
+                <label for="username">User Name</label>
+                <input   type="text" id="username" name="username" placeholder="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"placeholder="password" required>
+                
+                <button type="submit" name="submit1" class="button">Login</button>
+            </form>
+           
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My E-commerce Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

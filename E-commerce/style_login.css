@@ -1,0 +1,94 @@
+/* Add your desired styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #73b7ff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.login {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#password{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+ 
+    border-radius: 4px;
+}
+#username{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: coral;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 19px;
+    margin-left: 110px;
+    border-radius: 6px;
+ 
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    margin-top: 86px;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 135px;
+}
